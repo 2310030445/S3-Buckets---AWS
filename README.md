@@ -12,12 +12,16 @@ _**1. List all S3 buckets:**_
 
 _**2. Create two S3 buckets:**_
   aws s3 mb s3://bucket1-2310030445
+  
   aws s3 mb s3://bucket2-2310030445
 
 
 _**3. Delete the S3 buckets:**_
-  aws s3 rb s3://bucket1-2310030445
+  aws s3 rb s3://bucket1-2310030445 
   aws s3 rb s3://bucket2-2310030445
+
+**Result:**
+Both S3 buckets were successfully created and deleted using AWS CLI commands.
 
 _**Reference:**_
 https://www.youtube.com/watch?v=r6fcpwB1IeQ
